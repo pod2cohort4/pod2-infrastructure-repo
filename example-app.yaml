@@ -45,10 +45,10 @@ spec:
   ingressClassName: external-nginx
   tls:
   - hosts:
-    - app.cohort4pod7cloud.online
-    secretName: app-cohort4pod7cloud.online
+    - app.pod2-c4.online
+    secretName: app-pod2-c4.online
   rules:
-  - host: app.cohort4pod7cloud.online
+  - host: app.pod2-c4.online
     http:
       paths:
       - path: /

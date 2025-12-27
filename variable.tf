@@ -86,13 +86,13 @@ variable "zone_name" {
 variable "domain-name" {
   description = "Domain name to be created"
   type        = string
-  default     = "cohort4pod7cloud.online"
+  default     = "pod2-c4.online"
 }
 
 variable "namecheap_api_user" {
   description = "Namecheap API user"
   type        = string
-  default     = "benjass"
+  default     = "Digitalwitchpod2"
 }
 variable "namecheap_api_key" {
   description = "Namecheap API key"
@@ -102,12 +102,12 @@ variable "namecheap_api_key" {
 variable "namecheap_username" {
   description = "Namecheap username"
   type        = string
-  default     = "benjass"
+  default     = "Digitalwitchpod2"
 }
 variable "namecheap_client_ip" {
   description = "Client IP for Namecheap API access"
   type        = string
-  default     = "3.90.27.237" # Replace with your actual client IP
+  default     = "3.238.219.214" # Replace with your actual client IP
 }
 
 #===========
@@ -164,5 +164,5 @@ variable "repository_name" {
 variable "email" {
   description = "Email address for notifications and certificates"
   type        = string
-  default     = "awsbenjass1@gmail.com"
+  default     = "pod80619@gmail.com"
 }

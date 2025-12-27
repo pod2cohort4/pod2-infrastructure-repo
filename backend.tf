@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "pod7-project-terraform-state"
-    key    = "pod7-project-terraform-state/prodution/terraform.tfstate"
+    bucket = "pod2-cohort4-terraform-bucket"
+    key    = "pod2-cohort4-terraform-bucket/prodution/terraform.tfstate"
     region = "us-east-1"
   }
 }
